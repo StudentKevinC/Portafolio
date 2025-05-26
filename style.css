@@ -232,6 +232,7 @@ body.light-mode .section-title {
  transform: scale(1.05);
 }
 section {
+ scroll-margin-top: 10rem;
  min-height: 100vh;
  padding: 10rem 15%;
  opacity: 0;
@@ -456,6 +457,7 @@ section.visible {
  letter-spacing: 1px;
 }
 .projects {
+ padding-top: 10rem;
  background-color: var(--second-bg-color);
 }
 .projects-box {
@@ -788,6 +790,8 @@ section.visible {
 
   section {
     padding: 6rem 3rem;
+    opacity: 1 !important;
+    transform: translateY(0) !important;
   }
 
   .home {
@@ -921,4 +925,3 @@ section.visible {
     margin-bottom: 1rem;
   }
 }
-
