@@ -590,10 +590,91 @@ section.visible {
 }
 /* Responsive para pantallas pequeñas */
 @media (max-width: 768px) {
- .coming-soon-title {
-  font-size: 3.5rem;
- }
- .projects#more-projects {
-  padding: 0 1rem;
- }
+  html {
+    font-size: 50%;
+  }
+
+  .header {
+    padding: 2rem 5%;
+  }
+
+  #menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--bg-color);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+    display: none; /* se activa con JS en modo mobile */
+  }
+
+  .navbar.active {
+    display: flex;
+  }
+
+  .home {
+    flex-direction: column;
+    gap: 5rem;
+    text-align: center;
+  }
+
+  .home-content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .home-img img {
+    width: 60vw;
+  }
+
+  .about {
+    flex-direction: column;
+    gap: 5rem;
+    padding: 5rem 5%;
+  }
+
+  .about-img img {
+    width: 60vw;
+  }
+
+  .about-content h2 {
+    text-align: center;
+  }
+
+  .skills-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .projects-box {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+
+  .projects-card img {
+    height: auto;
+  }
+
+  .contact form {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .btn-group {
+    flex-direction: column;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
 }
