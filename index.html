@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>P-Kevin.C</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="img/iconoweb.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <div class="stars"></div>
+  <div class="shooting-star"></div>
+  <div class="shooting-star"></div>
+  <div class="shooting-star"></div>
+  <div class="shooting-star"></div>
+  <div class="shooting-star"></div>
+
+  <header class="header">
+    <a href="#home" class="logo">Kevin <span class="span">Cornejo</span></a>
+    <nav class="navbar">
+      <a class="lang" href="#home" data-en="Home" data-es="Inicio">Home</a>
+      <a class="lang" href="#about" data-en="About" data-es="Sobre mí">About</a>
+      <a class="lang" href="#skills" data-en="Skills" data-es="Habilidades">Skills</a>
+      <a class="lang" href="#projects" data-en="Projects" data-es="Proyectos">Projects</a>
+      <a class="lang" href="#contact" data-en="Contact" data-es="Contacto">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button id="theme-toggle" class="gradient-btn" title="Toggle theme"><i class="fa-solid fa-moon"></i></button>
+      <button id="lang-toggle" class="gradient-btn" title="Toggle language">EN/ES</button>
+    </div>
+  </header>
+
+  <!-- HOME SECTION -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1 class="typewriter-line1 lang" data-en="Hi, It's <span class='span'>Kevin</span>" data-es="Hola, Soy <span class='span'>Kevin</span>">Hi, It's <span class="span">Kevin</span></h1>
+      <h3 class="typewriter-line2 lang" data-en="I'm a <span class='span'>Student</span>" data-es="Soy <span class='span'>Freelance</span>">I'm a <span class="span">Freelance</span></h3>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="img/imgMe.png" alt="Kevin Cornejo" loading="lazy"/>
+    </div>
+    <div class="about-content">
+      <h2 class="lang" data-en="About <span class='span'>Me</span>" data-es="Sobre <span class='span'>Mí</span>">About <span class="span">Me</span></h2>
+      <p class="lang" data-en="I'm a Computer Science and Telecommunications Engineering student with a passion for full-stack development, problem-solving, and continuous learning. I love creating attractive and functional interfaces, exploring new technologies, and applying my knowledge to real-world projects.\n\nI'm currently seeking opportunities to apply my web development skills and continue growing as a professional." data-es="Soy estudiante de Ingeniería en Computación y Telecomunicaciones con pasión por el desarrollo full-stack, la resolución de problemas y el aprendizaje continuo. Me encanta crear interfaces atractivas y funcionales, explorar nuevas tecnologías y aplicar mis conocimientos en proyectos reales.\n\nActualmente estoy buscando oportunidades para aplicar mis habilidades en desarrollo web y seguir creciendo como profesional.">
+        I'm a Computer Science and Telecommunications Engineering student with a passion for full-stack development, problem-solving, and continuous learning.<br><br>
+        I love creating attractive and functional interfaces, exploring new technologies, and applying my knowledge to real-world projects.<br><br>
+        I'm currently seeking opportunities to apply my web development skills and continue growing as a professional.
+      </p>
+      <div class="btn-group">
+        <a href="CV/cvkevin.pdf" class="btn lang" target="_blank" rel="noopener noreferrer" data-en="Hire" data-es="Contratar">CV</a>
+        <a href="#contact" class="btn lang" data-en="Contact" data-es="Contacto">Contact</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+  <div class="skills-content">
+    <h2 class="section-title lang" data-en="Skills" data-es="Habilidades">Skills</h2>
+
+    <h3 class="skills-subtitle lang" data-en="Programming Languages" data-es="Lenguajes de Programación">Programming Languages</h3>
+    <div class="skills-list">
+      <div class="skill-item"><i class="fa-brands fa-html5 skill-icon" style="color:#e44d26"></i><span>HTML</span></div>
+      <div class="skill-item"><i class="fa-brands fa-css3-alt skill-icon" style="color:#1572b6"></i><span>CSS</span></div>
+      <div class="skill-item"><i class="fa-brands fa-js skill-icon" style="color:#f7df1e"></i><span>JavaScript</span></div>
+      <div class="skill-item"><img src="img/ISO_C++_Logo.svg" alt="C++" class="skill-icon" style="width:5rem;height:5rem;"><span>C++</span></div>
+      <div class="skill-item"><i class="fa-brands fa-java skill-icon" style="color:#f89820"></i><span>Java</span></div>
+    </div>
+
+    <h3 class="skills-subtitle lang" data-en="Frameworks & Libraries" data-es="Frameworks y Librerías">Frameworks & Libraries</h3>
+    <div class="skills-list">
+      <div class="skill-item"><i class="fa-brands fa-react skill-icon" style="color:#61dafb"></i><span>React</span></div>
+      <div class="skill-item"><i class="fa-brands fa-bootstrap skill-icon" style="color:#7952b3"></i><span>Bootstrap</span></div>
+      <div class="skill-item"><i class="fa-brands fa-gem skill-icon" style="color:#cc0000"></i><span>Rails</span></div>
+    </div>
+
+    <h3 class="skills-subtitle lang" data-en="Tools & Software" data-es="Herramientas y Software">Tools & Software</h3>
+    <div class="skills-list">
+      <div class="skill-item"><img src="img/Visual_Studio_icon.svg" alt="VS Code" class="skill-icon" style="width:5rem;height:5rem;"><span>VS Code</span></div>
+      <div class="skill-item"><img src="img/IntelliJ_IDEA_icon.svg" alt="IntelliJ" class="skill-icon" style="width:5rem;height:5rem;"><span>IntelliJ</span></div>
+      <div class="skill-item"><img src="img/Adobe_icon.svg" alt="Photoshop" class="skill-icon" style="width:5rem;height:5rem;"><span>Photoshop</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <h2 class="heading lang" data-en="Projects" data-es="Proyectos">Projects</h2>
+  <div class="projects-box">
+    <div class="projects-card">
+      <img src="img/movies.jpg" alt="" loading="lazy">
+      <h3 class="lang" data-en="Cine Cythe" data-es="Cine Cythe">Cine Cythe</h3>
+      <p class="lang" data-en="Cine Cythe is a website for finding out about the most watched movies of the moment, action movies, and new releases." data-es="Cine Cythe es un sitio web para informarse sobre las películas más vistas del momento, películas de acción y nuevos estrenos.">Cine Cythe is a website for finding out about the most watched movies of the moment, action movies, and new releases.</p>
+      <a href="https://studentkevinc.github.io/" target="_blank" class="btn lang" data-en="Review Project" data-es="Ver Proyecto">Review Project</a>
+    </div>
+    <div class="projects-card">
+      <img src="img/baristas.jpg" alt="" loading="lazy">
+      <h3 class="lang" data-en="Baristas" data-es="Baristas">Baristas</h3>
+      <p class="lang" data-en="Baristas is a website about a restaurant that offers various services such as coffee, food, and desserts, as well as an interactive shopping cart." data-es="Baristas es un sitio web acerca un local que ofrece distintos servicios como cafe,comida o postres ademas de contar con un carrito de compras interactivo..">Baristas is a website about a restaurant that offers various services such as coffee, food, and desserts, as well as an interactive shopping cart.</p>
+      <a href="https://studentkevinc.github.io/baristas.github.io/cafe-pag/index.html" target="_blank" class="btn lang" data-en="Review Project" data-es="Ver Proyecto">Review Project</a>
+    </div>
+    <div class="projects-card">
+      <img src="img/project3.png" alt="" loading="lazy">
+      <h3 class="lang" data-en="Nik Eventos" data-es="Nik Eventos">Nik Eventos</h3>
+      <p class="lang" data-en="Nik Eventos is a website for a modern event center with sections for services, gallery, and contact." data-es="Nik Eventos es un sitio web para un centro de eventos moderno con secciones de servicios, galería y contacto.">Nik Eventos is a website for a modern event center with sections for services, gallery, and contact.</p>
+      <a href="https://nik-eventos.netlify.app" target="_blank" class="btn lang" data-en="Review Project" data-es="Ver Proyecto">Review Project</a>
+    </div>
+    <div class="projects-card">
+      <img src="img/project4.png" alt="" loading="lazy">
+      <h3 class="lang" data-en="MyA Revelaciones" data-es="MyA Revelaciones">MyA Revelaciones</h3>
+      <p class="lang" data-en="MyA Revelaciones is a home cleaning service website offering professional, on-demand house cleaning through a simple and elegant interface." data-es="MyA Revelaciones es un sitio web de servicios de limpieza a domicilio que ofrece limpieza profesional bajo demanda a través de una interfaz sencilla y elegante.">MyA Revelaciones is a home cleaning service website offering professional, on-demand house cleaning through a simple and elegant interface.</p>
+      <a href="https://mya-revelaciones.netlify.app" target="_blank" class="btn lang" data-en="Review Project" data-es="Ver Proyecto">Review Project</a>
+    </div>
+    <div class="projects-card">
+      <img src="img/project5.png" alt="" loading="lazy">
+      <h3 class="lang" data-en="KevShop" data-es="KevShop">KevShop</h3>
+      <p class="lang"
+         data-en="KevShop is an online store that offers a clean and dynamic shopping experience, focused on user-friendly design and responsive layout."
+         data-es="KevShop es una tienda en línea que ofrece una experiencia de compra limpia y dinámica, enfocada en un diseño fácil de usar y un diseño responsivo.">
+         KevShop is an online store that offers a clean and dynamic shopping experience, focused on user-friendly design and responsive layout.
+      </p>
+      <a href="https://kevshop.netlify.app/" target="_blank" class="btn lang" data-en="Review Project" data-es="Ver Proyecto">Review Project</a>
+    </div>
+    <div class="projects-card">
+      <img src="img/project1.png" alt="" loading="lazy">
+      <h3 class="lang" data-en="To-Do App" data-es="To-Do App">Portafolios Personal</h3>
+<p class="lang"
+     data-en="These portfolios showcase my academic and personal web development projects, highlighting skills in design, responsiveness, and modern technologies."
+     data-es="Este portafolios muestran mis proyectos académicos y personales de desarrollo web, destacando habilidades en diseño, adaptabilidad y tecnologías modernas.">
+     These portfolios showcase my academic and personal web development projects, highlighting skills in design, responsiveness, and modern technologies.
+  </p>      <a href="#" class="btn lang" data-en="Review Project" data-es="Ver Proyecto">Review Project</a>
+    </div>
+  </div>
+  <div class="centered" style="text-align:center;margin-top:3rem;">
+    <a href="more-projects.html" target="_blank" class="btn gradient-btn lang" data-en="See More" data-es="Ver Más">See More</a>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2 class="heading lang" data-en="Contact <span class='span'>Me</span>" data-es="Contactame">Contact <span class="span">Me</span></h2>
+  <form action="https://formsubmit.co/nik31976@gmail.com" method="POST">
+    <input type="hidden" name="_next" value="https://studentkevinc.github.io/thanks.html">
+    <input type="hidden" name="_captcha" value="false">
+    <div class="input-group">
+      <div class="input-box">
+        <input type="text" name="name" class="lang" data-en="Full Name" data-es="Nombre completo" placeholder="Full Name" required>
+        <input type="email" name="email" class="lang" data-en="Email" data-es="Correo electrónico" placeholder="Email" required>
+      </div>
+      <div class="input-group-2">
+        <textarea name="message" class="lang" data-en="Your Message" data-es="Tu mensaje" placeholder="Your Message" required></textarea>
+        <input type="submit" class="btn lang" data-en="Send Message" data-es="Enviar Mensaje" value="Send Message">
+      </div>
+    </div>
+  </form>
+</section>
+
+<footer class="footer">
+  <div class="social-icons">
+    <a href="https://github.com/StudentKevinC" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/kevin-cornejo-calqu%C3%ADn-341212366/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://www.instagram.com/kevx_cn/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://steamcommunity.com/profiles/76561198121562125" target="_blank"><i class="fa-brands fa-steam"></i></a>
+  </div>
+  <ul class="list">
+    <li><a class="lang" href="#skills" data-en="Skills" data-es="Habilidades">Skills</a></li>
+    <li><a class="lang" href="#about" data-en="About Me" data-es="Sobre mí">About Me</a></li>
+    <li><a class="lang" href="#projects" data-en="Projects" data-es="Proyectos">Projects</a></li>
+    <li><a class="lang" href="#contact" data-en="Contact" data-es="Contacto">Contact</a></li>
+  </ul>
+  <p class="copyright lang" data-en="© Kevin Cornejo | All Rights Reserved" data-es="© Kevin Cornejo | Todos los derechos reservados">© Kevin Cornejo | All Rights Reserved</p>
+</footer>
+<script src="https://kit.fontawesome.com/e9de50e2aa.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
