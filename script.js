@@ -23,8 +23,8 @@ function typeEffectHTML(element, html, speed, callback) {
 window.addEventListener('DOMContentLoaded', () => {
   const line1 = document.querySelector('.typewriter-line1');
   const line2 = document.querySelector('.typewriter-line2');
-  const text1 = 'Hi, It\'s <span class="span">Kevin</span>';
-  const text2 = 'I\'m a <span class="span">Student</span>';
+  const text1 = line1.dataset.en;
+  const text2 = line2.dataset.en;
 
   typeEffectHTML(line1, text1, 125, () => {
     line2.style.visibility = "visible";
